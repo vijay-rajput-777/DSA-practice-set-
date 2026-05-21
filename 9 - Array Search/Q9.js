@@ -9,7 +9,7 @@
 // Output: 4
 // Explanation: For array [10, 8, 30, 4, 5], the element to be searched is 5 and it is at index 4. So, the output is 4.
 
-//Question link :()
+//Question link :(https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1?page=1&category=Arrays&difficulty=Basic&sortBy=submissions)
 
 function search(arr, x) {
 
