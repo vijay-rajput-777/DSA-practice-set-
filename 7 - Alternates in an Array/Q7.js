@@ -10,7 +10,7 @@
 // Take third element: 3
 // Skip fourth element: 4
 
-//Question link : ()
+//Question link : (https://www.geeksforgeeks.org/problems/print-alternate-elements-of-an-array/1?page=1&category=Arrays&difficulty=Basic&sortBy=submissions)
 
  function getAlternates(arr) {
     
@@ -20,5 +20,4 @@
         }console.log(result);
         ;
     }
-
  getAlternates([1, 2, 3, 4])
