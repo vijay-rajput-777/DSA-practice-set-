@@ -30,7 +30,8 @@ function isPalindrome(arr) {
     return true;  
     
 }
-console.log(isPalindrome([1, 2, 3, 2, 1]));
 
+
+console.log(isPalindrome([1, 2, 3, 2, 1]));
 console.log(isPalindrome([1, 2, 3, 4, 5]));
 console.log(isPalindrome([1, 2, 3, 4, 2, 1]));
