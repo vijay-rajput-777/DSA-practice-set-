@@ -14,10 +14,8 @@ function swapKth(arr, k) {
         
     let start = k - 1;
     let end = arr.length - k;
-
     let m = arr[start];
     let endValue = arr[end];
-
     let newArr = [];
 
     for (let i = 0; i < arr.length; i++) {
