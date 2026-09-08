@@ -14,8 +14,10 @@ function swapKth(arr, k) {
         
     let start = k - 1;
     let end = arr.length - k;
+
     let m = arr[start];
     let endValue = arr[end];
+    
     let newArr = [];
 
     for (let i = 0; i < arr.length; i++) {
@@ -35,6 +37,9 @@ function swapKth(arr, k) {
 
         
     }
+
 console.log(swapKth([1, 2, 3, 4, 5, 6, 7, 8] , 3));
+
 console.log(swapKth([5, 3, 6, 1, 2] , 2));
+
 console.log(swapKth([45, 15, 81, 19, 51, 64, 36, 99, 72] , 9)); // 72, 15, 81, 19, 51, 64, 36, 99, 45
