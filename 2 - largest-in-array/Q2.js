@@ -11,13 +11,16 @@
 function largest(arr) {
 
         let biger = arr[0]
+
         for(let i=0; i< arr.length ; i++){
+
             if(arr[i]>biger){
+                
                 biger=arr[i]
             }
         }
 
         console.log(biger);
     }
-    
+
 largest([1, 8, 7, 56, 90]);
