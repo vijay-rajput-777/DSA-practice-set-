@@ -17,8 +17,9 @@ function isSubset(a, b) {
        let i=0, j=0;
 
        let m=a.length ,n=b.length;
-       
+
        while (i<m && j<n) {
+
         if (a[i]<b[j]) {
             i++;
         }else if (a[i]===b[j]) {
@@ -28,9 +29,8 @@ function isSubset(a, b) {
            return false;
         }
        }return j===n;
-       
-       
     }
+    
     console.log(isSubset([11, 7, 1, 13, 21, 3, 7, 3],[11, 3, 7, 1, 7]));
     console.log( isSubset([10, 5, 2, 23, 19],[19, 5, 3]));
     
