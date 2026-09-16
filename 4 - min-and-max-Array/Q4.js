@@ -11,6 +11,8 @@
 
 //Question link : (https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1?page=1&category=Arrays&difficulty=Basic&sortBy=submissions)
 
+
+
 function getMinMax(arr) {
        
     let a =arr[0]
@@ -27,6 +29,5 @@ function getMinMax(arr) {
         }
         console.log(a,b);
     }
-
 getMinMax([1, 4, 3, 5, 8, 6])
 getMinMax([12, 3, 15, 7, 9])
