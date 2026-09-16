@@ -27,7 +27,6 @@ function getMinMax(arr) {
         }
         console.log(a,b);
         
-        
     }
 
 getMinMax([1, 4, 3, 5, 8, 6])
