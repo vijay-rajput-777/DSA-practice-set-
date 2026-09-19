@@ -13,10 +13,11 @@
 
 
 function rotate(arr) {
-    
+
 arr.unshift(arr[arr.length-1]);
 arr.pop();
 console.log(arr);
+
  }
     
 rotate([1, 2, 3, 4, 5])
