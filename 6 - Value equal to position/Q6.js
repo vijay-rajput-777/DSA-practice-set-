@@ -12,7 +12,6 @@ function Index(arr) {
             result.push(arr[i]);
         }
     }
-
     return result;
 }
 
