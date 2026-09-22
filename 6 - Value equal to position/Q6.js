@@ -14,7 +14,6 @@ function Index(arr) {
     }
     return result;
 }
-
 let arr = [15, 2, 45, 4, 7];
 
 console.log(Index(arr));
