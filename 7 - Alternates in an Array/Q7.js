@@ -11,6 +11,7 @@
 // Skip fourth element: 4
 
 //Question link : (https://www.geeksforgeeks.org/problems/print-alternate-elements-of-an-array/1?page=1&category=Arrays&difficulty=Basic&sortBy=submissions)
+
  function getAlternates(arr) {
     
         let result =[]
