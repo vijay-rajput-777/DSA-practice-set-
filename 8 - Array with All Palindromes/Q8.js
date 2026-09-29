@@ -30,7 +30,6 @@ function isPalinArray(arr) {
                 
             }
         }
-        
         console.log(true);
         
     }
