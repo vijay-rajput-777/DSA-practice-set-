@@ -30,8 +30,8 @@ function isPalinArray(arr) {
                 
             }
         }
+
         console.log(true);
-        
     }
 
 isPalinArray([111, 222, 333, 444, 555]);
