@@ -27,11 +27,8 @@ function isPalinArray(arr) {
             
             if(original !== reverse) {
                 console.log(false);
-                
             }
         }
-
         console.log(true);
     }
-
 isPalinArray([111, 222, 333, 444, 555]);
