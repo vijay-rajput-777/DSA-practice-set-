@@ -15,10 +15,10 @@ function search(arr, x) {
 
     for(let i=0; i<=arr.length-1; i++){
         if(arr[i]==x){
-            console.log(i);
-            return;
+            
         }
         }
-       
+        console.log(-1);
+        return;
     }
 search([1, 2, 3, 4] , 3)
