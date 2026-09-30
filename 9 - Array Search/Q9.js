@@ -22,5 +22,4 @@ function search(arr, x) {
         console.log(-1);
         return;
     }
-
 search([1, 2, 3, 4] , 3)
