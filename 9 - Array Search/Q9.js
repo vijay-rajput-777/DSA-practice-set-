@@ -19,7 +19,6 @@ function search(arr, x) {
             return;
         }
         }
-        console.log(-1);
-        return;
+       
     }
 search([1, 2, 3, 4] , 3)
