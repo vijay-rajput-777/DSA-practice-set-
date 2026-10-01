@@ -20,8 +20,6 @@ function countOfElements(x, arr) {
             }
         }
         console.log(count);
-        
-        
     }
 
     // countOfElements(9, [10, 1, 2, 8, 4, 5]);
