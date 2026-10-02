@@ -18,12 +18,7 @@ function convertFive(num) {
             // console.log(nuum[i]);
             if (nuum[i]!=0) {
                 result+=nuum[i]
-            }else{
-                result+=5;
-            }
-        }
-        console.log(result);
-
+          ;
 }
 
 convertFive(1004)
