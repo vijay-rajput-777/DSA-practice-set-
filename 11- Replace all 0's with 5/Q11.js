@@ -15,7 +15,6 @@ function convertFive(num) {
       let nuum= num.toString();
       let result='';
     for (let i = 0; i < nuum.length; i++) {
-            // console.log(nuum[i]);
             if (nuum[i]!=0) {
                 result+=nuum[i]
             }else{
