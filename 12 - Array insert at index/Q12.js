@@ -12,7 +12,9 @@
 //Question link : ()
 
 function insertAtIndex(arr, index, val) {
+
     let result =[]
+
     for (let i = 0; i <=index; i++) {
 
         if (i!=index) {
@@ -22,7 +24,7 @@ function insertAtIndex(arr, index, val) {
         if(i===index){
            result+=val
         }
-        
+
     }
     console.log(result);
 }
