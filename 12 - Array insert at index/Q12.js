@@ -18,9 +18,11 @@ function insertAtIndex(arr, index, val) {
         if (i!=index) {
             result+=arr[i]
         }
+
         if(i===index){
            result+=val
         }
+        
     }
     console.log(result);
 }
